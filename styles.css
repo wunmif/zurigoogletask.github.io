@@ -1,0 +1,130 @@
+body, p{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 1.4em;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav img { 
+    height: 20px; 
+}
+
+main {
+    width: 50%;
+    margin: 7.3em auto;
+    text-align: center;
+}
+
+main img { 
+    height: 150px; 
+}
+
+input {
+    width: 90%;
+    padding: 1em;
+    border-radius: 30px;
+    border:1px solid rgb(222, 227, 227);
+}
+
+.btns_container {
+    margin-top: 1em;
+}
+
+.btns_container button{
+    padding: 1em;
+    border: none;
+    background-color: rgb(238, 248, 248);
+    font-size: 1rem;
+}
+
+.offer{
+    padding: 1em;
+    display: inline-flex;
+    
+    border-top:1px;
+    
+    
+    
+}
+
+main a{
+    padding-left: 0;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    color: steelblue;
+    margin-left: 0.6em;
+    
+}
+
+main p{
+    padding-left: 0;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+}
+
+footer {
+    background-color: rgb(234, 243, 243);
+}
+
+footer a{
+    color: grey;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+}
+
+footer p{
+    color: grey;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+}
+
+.footer_top{
+    padding: 1em;
+    
+}
+
+.footer_middle{
+    padding: 0.1em;
+    justify-content: space-between;
+    border-top:1px solid rgb(212, 214, 214);
+}
+
+.footer_bottom{
+    padding: 0.2em;
+    display: flex;
+    justify-content: space-between;
+    
+           
+}
+
+.ads{
+    padding: 1em;
+    text-align: center;
+}
+
+
+.left a{
+    margin-right: 1em;
+}
+.right a{
+    margin-right: 1em;
+}
